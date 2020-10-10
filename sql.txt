@@ -1,0 +1,5 @@
+create database produtos;
+use produtos;
+create table produtos(idprod int(8) not null auto_increment,nome varchar(255),cor varchar(255), preco double(10,5), primary key(idprod));
+
+

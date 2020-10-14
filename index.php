@@ -11,7 +11,7 @@
 </head>
 <body>
 <!-- Cadastrar Produto -->
-<form method = "POST" action = "" name = "FormularioProdutos">
+<form method = "POST" action = "" name = "FormularioProdutos" >
     <h1> Cadastrar Produtos </h1>
     <input style = "margin:5px;" type = "text" placeholder = "ID" name = "idprod"/> <br/>
     <input style = "margin:5px;" type = "text" placeholder = "Produto" name = "nome"/> <br/>
@@ -21,7 +21,7 @@
     <button style = "margin:5px;color:white;background-color:blue;" type = "submit"> Cadastrar </button>
     <button style = "margin:5px;color:white;background-color:green;" type = "submit"> Atualizar </button>
     <br/>
-    <input style = "margin:5px;" placeholder = "ID" type = "text" name = "idprod" />
+    <input style = "margin:5px;" placeholder = "ID" type = "text" name = "idprodExcluir" />
     <br/>
     <button style = "margin:5px;color:white;background-color:red;" type = "submit"> Excluir </button>
 </form>

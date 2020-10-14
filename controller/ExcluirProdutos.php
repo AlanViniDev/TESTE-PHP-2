@@ -11,7 +11,7 @@ class ExcluirProdutos{
 
     // Pega o id informado.
     public function requestID(){
-        $this->idprod = $_POST['idprod'];
+        $this->idprod = $_POST['idprodExcluir'];
     }
 
     //Instancia o objeto do model delete e executa o método.

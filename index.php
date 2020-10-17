@@ -25,9 +25,7 @@
     <br/>
     <button style = "margin:5px;color:white;background-color:red;" type = "submit"> Excluir </button>
 </form>
-
 <!-- Filtrar por nome. -->
-
 <div class="container">
 <h1> Filtro de Produtos </h1>
 <div class="row">
@@ -42,14 +40,11 @@
 </div>
 <div id="dados">Aqui será inserindo o resultado da consulta...</div>
 </div>
-
 <?php
 /* Chama o select de cores via PHP. */
 require("model/selectCores.php");
 ?>
-
 <div id = "resultadoFiltro"></div>
-
 </body>
 </html>
 
